@@ -1,0 +1,25 @@
+body{
+  background:black;
+  overflow:hidden; 
+}
+
+.container-matrix{
+  position: relative;
+  transition:transform 5s linear ;
+  display:none;
+}
+.show{
+  display:block;
+}
+
+.container-matrix-translate{
+      transform: translateY(1000px);
+}
+
+.span-matrix{
+  transition:transform 5s linear ;
+  color:green;
+  position: absolute;
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+}
